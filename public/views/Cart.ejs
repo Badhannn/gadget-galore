@@ -62,7 +62,7 @@
     </div>
     <div class="check">
     <a href="#"  id="chkout"><button class="button" type="button"><span>Checkout</span></button></a>
-   <a href="/index"><button class="button" type="button">Remove All</button></a>
+   <a href="/index"><button id="clr" class="button" type="button">Remove All</button></a>
      
     </div>
     
@@ -77,6 +77,12 @@
 
 
 <script>
+
+      $("#clr").click(function(){
+        sessionStorage.clear();
+        alert("Cart cleared.");
+      });
+      
       
       if(sessionStorage.getItem('CartData') && (JSON.parse(sessionStorage.getItem('CartData'))).length > 0 ){
         var a = document.getElementById('chkout');
@@ -156,21 +162,6 @@
 
     </script> 
 
-
-<!--sticky-->
-<div class="sticky-container">
-    <ul class="sticky">
-        <li>
-            <img src="./images/qq.png" width="32" height="32">
-            <p padding-right="20px"><img src="./images/sale.jpg" width="150" height="150"></p>
-        </li>
-        <li>
-            <img src="./images/qqp.png" width="32" height="32">
-             <p padding-right="20px"><img src="./images/aawww.gif" width="150" height="150"></p>
-        </li>
-        
-    </ul>
-</div>
 
 
 
