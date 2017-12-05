@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -45,13 +47,18 @@
   
              <h2 style="font-size:42px; color:white;"><u>Confirmation</u></h2>
         <div style="font-size:16px; color:white;">Name:
-            <input type="text" id="name"/>
+            <input type="text" id="name" placeholder="Ex: Abul maal muhit"/>
         </div> <br>
-        <div style="font-size:16px; color:white;">Phone Number: (+88)-
-            <input type="number" id="contact" size=11/>
+        <div style="font-size:16px; color:white;">Phone Number:
+            <!-- <input type="number" id="contact" size=11/> 
+          
+             <input type="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
+             <input id="contact" type="tel" pattern="^\d{10}$" required >-->
+              <input class id ="contact" type='tel' pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' placeholder='Ex: +88(017)9999-9999'>
+              
         </div> <br>
         <div style="font-size:16px; color:white;" >Address:
-            <textarea  cols="50" rows="4" id="address"></textarea>
+            <textarea  cols="50" rows="4" id="address" placeholder="Ex: house #, road #, building #, city , postal code"></textarea>
         </div>
         
         <br>
