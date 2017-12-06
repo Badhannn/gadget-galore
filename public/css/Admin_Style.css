@@ -222,3 +222,19 @@ a:visited{
       height: 40px;
   
 }
+
+
+.adminbtnhover:hover {
+   opacity: 1;
+  right: 0;
+  
+  background-color: blue;
+}
+
+
+strong { 
+    font-size:23px;
+    color:white;
+    
+    
+}

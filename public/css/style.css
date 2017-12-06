@@ -454,6 +454,12 @@ nav a:hover {
   margin: 5px;
 }
 
+.button2:hover {
+   opacity: 1;
+  right: 0;
+
+}
+
 /*Styling links*/
 
 
@@ -730,3 +736,13 @@ input{
   .sticky li p a:hover{ 
     text-decoration:underline;
     }
+    
+    
+    
+.glowhover:hover{
+  
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px yellow;
+	
+  
+  
+}    

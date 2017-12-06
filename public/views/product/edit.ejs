@@ -21,11 +21,11 @@
        
          <div id="transparentbox3">
               <h1 style="font-size:42px; color:white;"><u>Edit Product</u></h1>
-        <div>Name:
+        <div><strong>Name:</strong>
             <input type="text" id="name" value="<%=request.product.name%>" />
         </div> <br>
         
-        <div>Type:
+        <div><strong>Type:</strong>
          <select id="type" class="dropbox">
               <option value="mobile">Mobile</option>
               <option value="pc">Laptop/Computer</option>
@@ -35,23 +35,23 @@
             
         </div> <br>
         
-        <div>Brand:
+        <div><strong>Brand:</strong>
             <input type="text" id="brand" value="<%=request.product.brand%>" />
         </div> <br>
         
-        <div>Description:
+        <div><strong>Description:</strong>
             <textarea rows="4" cols="41" id="description"> <%=request.product.description%> </textarea>
         </div> <br>
-        <div>Price:
+        <div><strong>Price:</strong>
             <input type="number" id="price" value=<%=request.product.price%> />
         </div> <br>
-        <div>Quantity:
+        <div><strong>Quantity:</strong>
             <input type="number" id="quantity" value=<%=request.product.quantity%> />
         </div> <br>
-        <div>Image URL:
+        <div><strong>Image URL:</strong>
             <input type="text" id="image" value="<%=request.product.imageURL%>" />
         </div> <br>
-        <button id="submit" class="btn-login">Submit</button>
+        <button id="submit" class="btn-login adminbtnhover">Submit</button>
         </div>
         <script src="/lib/jquery/dist/jquery.min.js"></script>
         <script>
