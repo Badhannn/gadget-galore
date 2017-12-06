@@ -54,7 +54,7 @@
           
              <input type="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
              <input id="contact" type="tel" pattern="^\d{10}$" required >-->
-              <input class id ="contact" type='tel' pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' placeholder='Ex: +88(017)9999-9999'>
+              <input class id ="contact" type='tel' placeholder='Ex: +880-1700-92314'>
               
         </div> <br>
         <div style="font-size:16px; color:white;" >Address:
@@ -114,17 +114,47 @@
   <script src="./js/my.js"></script>
   
   <script>
+            
+            function validateName(name){
+	            var re = /^[A-Za-z ]+$/;
+	            return re.test(name);
+            }
+            
+            function validateContact(contact){
+	            var re = /^\+?([0-9]{3})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{6})$/;;
+	            return re.test(contact);
+            }
+            
+            function validateAddress(address){
+	            var re = /^[#.0-9a-zA-Z\s,-]+$/;
+	            return re.test(address);
+            }
+            
+            /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
+            
             var order = {};
             $("#name").change(function(){
-                order.name = $("#name").val();
+                if(!validateName($("#name").val())){
+                  alert("Please enter a valid name");
+                }else{
+                  order.name = $("#name").val();
+                }
             });
             
             $("#contact").change(function(){
-                order.contact = $("#contact").val();
+              if(!validateContact($("#contact").val())){
+                  alert("Please enter a valid contact number");
+                }else{
+                  order.contact = $("#contact").val();
+                }
             });
             
             $("#address").change(function(){
-                order.address = $("#address").val();
+                if(!validateAddress($("#address").val())){
+                  alert("Please enter a valid address");
+                }else{
+                  order.address = $("#address").val();
+                }
             });
             console.log(order);
             
