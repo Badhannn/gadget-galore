@@ -20,7 +20,8 @@ Features
 
 ***sample of options***
 
-![options](https://user-images.githubusercontent.com/16271202/33688400-748666b6-db05-11e7-9e18-927226e5be31.PNG)
+![croppedprod](https://user-images.githubusercontent.com/16271202/33704230-d72c69dc-db55-11e7-961a-85a983ad79d1.jpeg)
+
 
 
 
