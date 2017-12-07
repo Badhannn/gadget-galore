@@ -1,14 +1,14 @@
 GadgetGalore
 =========
 
-## (Moto) Bringing The Very Best To Your Life
+## Bringing The Very Best To Your Life
 
 ![whatsapp image 2017-12-07 at 12 52 49 am](https://user-images.githubusercontent.com/16271202/33688261-00f93638-db05-11e7-9646-d8282bf122f0.jpeg)
 
 
 ***Description:***
 GadgetGalore is an E-commerce site. Where you will be able to get all the accessories for gadget's like Smartphone, 
-Desktop/Laptop, Gaming devices.
+Desktop/Laptop and Gaming devices.
 
 
 Features
@@ -27,8 +27,10 @@ Features
 
 2. **Shopping Cart**
    
-     Shopping Cart allows users to check what all items they have selected to buy. They can later
-     cancel the order or checkout to confirmation page.
+     Shopping Cart allows users to check what all items they have selected to buy. They can then
+    select the amount of quantity, remove an individual product or all at once. In order to confrim their order,
+    they will have to checkout and provide necessery details required.
+
 
 **Sample**
 
@@ -36,19 +38,19 @@ Features
 
 
 
-**Adding Quantity Or Removing Items**
+**Setting Quantity, removing items Or checking-out**
 
 ![nhhshs](https://user-images.githubusercontent.com/16271202/33690122-4d64884a-db0c-11e7-8dfd-8b37451042f3.png)
 
     
-3. **Ecommerce in Social Medias**
+3. **Social Media links in the site**
 
 ![ebusiness](https://user-images.githubusercontent.com/16271202/33688628-44518c90-db06-11e7-9e94-8bb17f4b11a2.PNG)
 
 
 
 
-4. **Admin side Adding/removing products**
+4. **Admin side manipulating products (The admin will require to SignIn with an authentic account)**
 
 ![jjjjtttt](https://user-images.githubusercontent.com/16271202/33690151-7c0f0972-db0c-11e7-8d74-e25e7ec45b54.png)
 
