@@ -14,7 +14,7 @@ Desktop/Laptop and Gaming devices.
 Features
 --------
 
-1. **Selection of Category**
+1. ***Selection of Category***
 
     Customers can select categories of accessories. For each category there are selective items.
 
@@ -25,7 +25,7 @@ Features
 
 
 
-2. **Shopping Cart**
+2. ***Shopping Cart***
    
      Shopping Cart allows users to check what all items they have selected to buy. They can then
     select the amount of quantity, remove an individual product or all at once. In order to confrim their order,
@@ -38,19 +38,19 @@ Features
 
 
 
-**Setting Quantity, removing items Or checking-out**
+***Setting Quantity, removing items Or checking-out***
 
 ![nhhshs](https://user-images.githubusercontent.com/16271202/33690122-4d64884a-db0c-11e7-8dfd-8b37451042f3.png)
 
     
-3. **Social Media links in the site**
+3. ***Social Media links in the site***
 
 ![ebusiness](https://user-images.githubusercontent.com/16271202/33688628-44518c90-db06-11e7-9e94-8bb17f4b11a2.PNG)
 
 
 
 
-4. **Admin side manipulating products (The admin will require to SignIn with an authentic account)**
+4. ***Admin side manipulating products (The admin will require to SignIn with an authentic account)***
 
 ![jjjjtttt](https://user-images.githubusercontent.com/16271202/33690151-7c0f0972-db0c-11e7-8d74-e25e7ec45b54.png)
 
@@ -64,7 +64,7 @@ Download
 
  ***Download the latest git*** 
 
-### [Click here to download latest version](https://github.com/Raselahmed825/gadget-galore.git)
+### [Click here to download latest version](https://github.com/iub-cse-shq/gadget-galore)
 
 
 
