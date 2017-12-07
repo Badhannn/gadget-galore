@@ -23,6 +23,7 @@ Features
 ![croppedprod](https://user-images.githubusercontent.com/16271202/33704230-d72c69dc-db55-11e7-961a-85a983ad79d1.jpeg)
 
 
+--------
 
 
 2. ***Shopping Cart***
@@ -36,19 +37,20 @@ Features
 
 ![mutltipleadd](https://user-images.githubusercontent.com/16271202/33688564-09368be2-db06-11e7-80fb-2bbdf9129e19.PNG)
 
-
+--------
 
 ***Setting Quantity, removing items Or checking-out***
 
 ![nhhshs](https://user-images.githubusercontent.com/16271202/33690122-4d64884a-db0c-11e7-8dfd-8b37451042f3.png)
 
-    
+--------
+
 3. ***Social Media links in the site***
 
 ![ebusiness](https://user-images.githubusercontent.com/16271202/33688628-44518c90-db06-11e7-9e94-8bb17f4b11a2.PNG)
 
 
-
+--------
 
 4. ***Admin side manipulating products (The admin will require to SignIn with an authentic account)***
 
@@ -57,7 +59,7 @@ Features
 
 ![aodoiaoidma](https://user-images.githubusercontent.com/16271202/33690143-704ecd3e-db0c-11e7-8610-978322cd7943.png)
 
-
+--------
 
 Download
 --------
